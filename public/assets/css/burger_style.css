@@ -1,24 +1,38 @@
+
 body
 {
-    background-image: url("/img/background.jpg") 100% 100%;
+    background-image: url("background.jpg");
     background-size: cover;
     font-family: Aclonia;
 }
 .bodycontainer
 {
-    max-width: 1170px;
+    max-width: 1145px;
     margin: 0 auto;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
+h3
+{
+    color: white;
+}
+#row1
+{
+    background-color: rgb(27, 81, 0, 0.5); 
+}
+
+#row2
+{
+    background-color: rgb(27, 81, 0, 0.5);   
+}
 #header
 {
-    background-color: #1b5100;
+    background-color: rgb(27, 81, 0, 0.5);
     height: 15vh;
     color: white;
     top: 0;
 }
+
 
 .boxburger {
     padding: 2%;
@@ -26,8 +40,9 @@ body
     border: 1px solid #aaaaaa;
     border-radius: 3px;
     position: relative;
-    background-color: white;
+    background-color: rgb(27, 81, 0, 0.5);
     font-size: 20px;
+    color: white;
   }
 
 .devourUndevour {
@@ -70,6 +85,7 @@ body
 .form-group label
 {
     font-size: 20px;
+    color: white;
 }
 
 hr.style-one {
